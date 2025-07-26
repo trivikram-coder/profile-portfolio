@@ -21,3 +21,20 @@
         .nav-item :hover{
             border: 1px solid rgb(47, 47, 47);
         }
+/* Make the page take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure main content takes up all remaining space */
+main {
+    flex: 1;
+}
+
+/* Optional: Ensure footer always at bottom */
+footer {
+    margin-top: auto;
+}
